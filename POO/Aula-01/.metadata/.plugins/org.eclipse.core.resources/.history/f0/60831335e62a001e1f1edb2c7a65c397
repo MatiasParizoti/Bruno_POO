@@ -1,0 +1,10 @@
+package br.com.classes;
+
+public class veiculo {
+	
+	//Atributo
+	public String rodas;
+	public String motor;
+	public float velocidade; 
+
+}

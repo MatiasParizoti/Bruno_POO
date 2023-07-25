@@ -1,0 +1,43 @@
+package br.com.main;
+
+import br.com.classes.veiculo;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		//iniciando um objeto
+		veiculo carro = new veiculo();
+		veiculo fusca = new veiculo();
+		carro.nome = "Corsa";
+		carro.cor = "Amarelo";
+		carro.motor = "16cv";
+		carro.velocidade = 100;
+		
+		System.out.println("Nome: " + carro.nome);
+		System.out.println("Cor: " + carro.cor);
+		System.out.println("Motor: " + carro.motor);
+		System.out.println("Velocidade: " + carro.velocidade);
+		
+		
+		
+		fusca.nome = "fusca";
+		fusca.cor = "Azul";
+		fusca.rodas = "Arial16";
+		fusca.velocidade = 200;
+		
+		
+		
+		System.out.println("Nome: " + fusca.nome);
+		System.out.println("Cor: " + fusca.cor);
+		System.out.println("Motor: " + fusca.motor);
+		System.out.println("Velocidade: " + fusca.velocidade);
+		
+		carro.ligar();
+		fusca.desligar();
+		
+		
+
+	}
+
+}

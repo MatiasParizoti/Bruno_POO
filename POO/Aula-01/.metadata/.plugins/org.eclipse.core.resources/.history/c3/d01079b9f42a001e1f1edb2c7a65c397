@@ -1,0 +1,16 @@
+package br.com.classes;
+
+public class Diaristas {
+	
+	
+	
+	
+	public void atender(String nomeCliente) {
+		
+		System.out.println("Realizando Artendimento para cliente: " + nomeCliente);
+	}
+	
+
+
+
+}

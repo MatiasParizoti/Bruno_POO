@@ -1,0 +1,17 @@
+package br.com.projeto;
+
+import br.com.classes.Diaristas;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Diaristas pessoa = new Diarista();
+		
+		pessoa.nome
+		
+		
+
+	}
+
+}

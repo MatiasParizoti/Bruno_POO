@@ -1,0 +1,17 @@
+package br.com.classes;
+
+public class Diaristas {
+	
+	public String nome;
+	public String telefone;
+	public String endereco;
+	
+	
+	public void atender() {
+		
+	}
+	
+
+
+
+}

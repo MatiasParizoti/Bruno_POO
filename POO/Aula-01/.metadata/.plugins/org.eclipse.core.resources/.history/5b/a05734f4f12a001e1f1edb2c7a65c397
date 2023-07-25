@@ -1,0 +1,21 @@
+package br.com.projeto;
+
+import br.com.classes.Diaristas;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Diaristas pessoa = new Diaristas();
+		
+		pessoa.nome = "João";
+		pessoa.telefone = "(11)9998-7609";
+		pessoa.endereco = "Av Cajamar N 111";
+		
+		System.out.println("Nome Diarista: " + pessoa.nome);
+		System.out.println("Telefone Diarista: " + pessoa.telefone);
+		System.out.println("Endereço Diarista: " + pessoa.endereco);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package br.com.main;
+
+import br.com.classes.veiculo;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		//iniciando um objeto
+		veiculo corsa = new veiculo();
+		corsa.
+
+	}
+
+}
