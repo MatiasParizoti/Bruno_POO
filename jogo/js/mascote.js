@@ -40,21 +40,31 @@ function mostrarMascote() {
     
 }
 function incluirPontos() {
-
-    text(MeusPontos, 20,25)
-    fill(color(255,0,0))
-    textSize(21)
+    text(MeusPontos, 20, 25);
+    fill(color(0, 0, 0));
+    textSize(21);
     if (yMascote < 0) {
         yMascote = 340;
-        MeusPontos ++;
+        MeusPontos++;
+    }
+    if (MeusPontos == 1) {
+        imagemDaEstrada = loadImage("img/mapa2.jpg");
+        imagensCarros = imagensCarros2; // Troca as imagens dos carros
+    }
+    if (MeusPontos == 3) {
+        imagemDaEstrada = loadImage("img/mapa3.png");
+        imagensCarros2 = imagensCarros3; // Troca as imagens dos carros
+        console.log('CARROS3');
+    }
+    console.log(MeusPontos);
 }
     
     
-}
+
 function movimentoMascote() {
     
     if(keyIsDown(UP_ARROW)){
-        yMascote -= 3;
+        yMascote -= 13;
         imagemDoMascote = loadImage("img/kayque-surpreso.png")
 
         
@@ -74,6 +84,8 @@ function movimentoMascote() {
     if(keyIsDown(RIGHT_ARROW)){
         xMascote += 3;
         imagemDoMascote = loadImage("img/kayque-direita.png")
+
+        
 
        
     }

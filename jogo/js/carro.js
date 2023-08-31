@@ -7,18 +7,18 @@ let alturaCarros = 45;
 
 
 
-function mostrarCarros(){
 
-    for(let i = 0; i < imagensCarros.length; i++) {
-        
-        image(imagensCarros[i],xCarros[i],yCarros[i],comprimentoCarros,alturaCarros);
-        
+function mostrarCarros() {
+    for (let i = 0; i < imagensCarros.length; i++) {
+        image(imagensCarros[i], xCarros[i], yCarros[i], comprimentoCarros, alturaCarros);
     }
+}
+
 
     // image(imagemHelicoptero,xCarros,36,comprimentoCarros,alturaCarros);
     // image(imagemDoCarro2,xCarros1,96,comprimentoCarros,alturaCarros);
     // image(imagemDoCarro3,xCarros2,150,comprimentoCarros,alturaCarros);
-}
+
 function movimentoCarro() {
 
     for (let i = 0; i < imagensCarros.length; i++) {
